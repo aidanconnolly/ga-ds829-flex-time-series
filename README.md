@@ -2,6 +2,8 @@
 
 Unit 4 : DS Applications | Flex
 
+> Note: This flex lesson is a WIP.
+
 ---
 
 ## Materials We Provide
