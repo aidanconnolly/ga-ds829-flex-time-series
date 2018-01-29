@@ -1,8 +1,8 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Time Series
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Working with Time Series Data
 
-Unit 4 : DS Applications | Flex
+> Unit 4, Flex
 
-> Note: This flex lesson is a WIP.
+***This flex lesson is a WIP***
 
 ---
 
@@ -30,7 +30,6 @@ After this lessons, students will be able to:
 1. X
 2. Y
 3. Z
-4. XX
 
 ---
 
@@ -41,7 +40,6 @@ Before this lesson(s), students should already be able to:
 1.
 2. 
 3. 
-4. 
 
 ---
 
@@ -76,13 +74,16 @@ II. **Applications** (90 min)
 
 ---
 
-> **Optional Materials:**
+## Installation Notes
 
+When applicable
 
 ---
 
 
 ## Additional Resources
+
+If you are interested in more resources, check out the following:
 - [X]()
 - [X]()
 - [X]()
