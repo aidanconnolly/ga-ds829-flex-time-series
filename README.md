@@ -14,17 +14,17 @@
 | Lesson | Lesson, part 4: Decomposition | [Link](./04_decomposition.ipynb)|
 | Lesson | Lesson, part 5: Practice Activity | [Link](./05_independent_practice.ipynb)|
 | Lesson | Lesson, part 6: Bonus Section on Modeling | [Link](./06_bonus_time_series_models.ipynb)|
-| Data Sets | X | [Link](X)|
-| Data Sets | Y | [Link](X)|
-| Data Sets | Z | [Link](X)|
-| Solutions | Solution code, Part 1 | [Link](X)|
-| Solutions | Solution code, Part 2 | [Link](X)|
-| Solutions | Solution code, Part 3 | [Link](X)|
-| Solutions | Solution code, Part 4 | [Link](X)|
-| Solutions | Solution code, Part 5 | [Link](X)|
+| Data Sets | Lesson, Part X | [Link](X)|
+| Data Sets | Lesson, Part X | [Link](X)|
+| Data Sets | Lesson, Part X | [Link](X)|
+| Solutions | Solution code, Part 1 | [Link](./solution-code/01_time_series_solutions.ipynb)|
+| Solutions | Solution code, Part 2 | [Link](./solution-code/02_rolling_statistics_solutions.ipynb)|
+| Solutions | Solution code, Part 3 | [Link](./solution-code/03_autocorrelation_solutions.ipynb)|
+| Solutions | Solution code, Part 4 | [Link](./solution-code/04_decomposition_solutions.ipynb)|
+| Solutions | Solution code, Part 5 | [Link](./solution-code/05_independent_practice_solutions.ipynb)|
 
 
-> **Data description**: X is used for Y.
+> **Data description**: Here are some descriptions of the datasets we're including in the `data` folder, including what they are, why we chose them, and where they are used.
 
 ---
 
