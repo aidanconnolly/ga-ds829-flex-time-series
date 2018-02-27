@@ -2,18 +2,31 @@
 
 > Unit 4, Flex
 
-***This flex lesson is a WIP***
-
 ---
 
 ## Materials We Provide
 
-TODO
+| Topic | Description | Link |
+| --- | --- | --- |
+| Lesson | Lesson, part 1: Time Series Intro | [Link](./01_time_series.ipynb)|
+| --- | --- | --- |
+| Lesson | Lesson, part 1: Time Series Intro | [Link](./01_time_series.ipynb)|
+| Lesson | Lesson, part 2: Rolling Statistics | [Link](./02_rolling_statistics.ipynb)|
+| Lesson | Lesson, part 3: Autocorrelation | [Link](./03_autocorrelation.ipynb)|
+| Lesson | Lesson, part 4: Decomposition | [Link](./04_decomposition.ipynb)|
+| Lesson | Lesson, part 5: Practice Activity | [Link](./05_independent_practice.ipynb)|
+| Lesson | Lesson, part 6: Bonus Section on Modeling | [Link](./06_bonus_time_series_models.ipynb)|
+| Data Sets | X | [Link](X)|
+| Data Sets | Y | [Link](X)|
+| Data Sets | Z | [Link](X)|
+| Solutions | Solution code, Part 1 | [Link](X)|
+| Solutions | Solution code, Part 2 | [Link](X)|
+| Solutions | Solution code, Part 3 | [Link](X)|
+| Solutions | Solution code, Part 4 | [Link](X)|
+| Solutions | Solution code, Part 5 | [Link](X)|
 
 
-> Dataset Notes:
-
-TODO
+> **Data description**: X is used for Y.
 
 ---
 
@@ -35,7 +48,7 @@ Before this lesson(s), students should already be able to:
 
 1. Manipulate data with `pandas`
 2. Create basic data visualizations with Matplotlib and seaborn
-3. Understand correlation
+3. Define and demonstrate techniques for correlating data points
 
 ---
 
@@ -85,14 +98,10 @@ II. **Bonus** (TODO min)
 
 ---
 
-## Installation Notes
-
-When applicable
-
----
-
 
 ## Additional Resources
 
 If you are interested in more resources, check out the following:
-- For more information about Pandas' datetime library, search for `.dt` [here.](http://pandas.pydata.org/pandas-docs/stable/api.html)
+- In Pandas' "datetime" library, [search for `.dt` here.](http://pandas.pydata.org/pandas-docs/stable/api.html)
+- For additional review of these concepts, see [some inspiration from the Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html)
+- There are lots of additional tutorials on ARIMA models out there; [here is a good one](http://www.statsref.com/HTML/index.html?arima.html)
