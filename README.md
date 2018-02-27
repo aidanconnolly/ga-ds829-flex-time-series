@@ -100,6 +100,6 @@ II. **Bonus** (TODO min)
 ## Additional Resources
 
 If you are interested in more resources, check out the following:
-- In Pandas' "datetime" library, [search for `.dt` here.](http://pandas.pydata.org/pandas-docs/stable/api.html)
-- For additional review of these concepts, see [some inspiration from the Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html)
-- There are lots of additional tutorials on ARIMA models out there; [here is a good one](http://www.statsref.com/HTML/index.html?arima.html)
+- In Pandas' "datetime" library, [search for more information on`.dt` here.](http://pandas.pydata.org/pandas-docs/stable/api.html).
+- For additional review of these concepts, see [some inspiration from the Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html).
+- There are lots of additional tutorials on ARIMA models out there; [here is a good one](http://www.statsref.com/HTML/index.html?arima.html).
