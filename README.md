@@ -9,8 +9,6 @@
 | Topic | Description | Link |
 | --- | --- | --- |
 | Lesson | Lesson, part 1: Time Series Intro | [Link](./01_time_series.ipynb)|
-| --- | --- | --- |
-| Lesson | Lesson, part 1: Time Series Intro | [Link](./01_time_series.ipynb)|
 | Lesson | Lesson, part 2: Rolling Statistics | [Link](./02_rolling_statistics.ipynb)|
 | Lesson | Lesson, part 3: Autocorrelation | [Link](./03_autocorrelation.ipynb)|
 | Lesson | Lesson, part 4: Decomposition | [Link](./04_decomposition.ipynb)|
