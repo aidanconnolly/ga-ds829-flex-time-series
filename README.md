@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Working with Time Series Data
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Working With Time Series Data
 
 > Flex Lesson
 
@@ -8,23 +8,23 @@
 
 | Topic | Description | Link |
 | --- | --- | --- |
-| Lesson | Lesson, part 1: Time Series Intro | [Link](./01_time_series.ipynb)|
-| Lesson | Lesson, part 2: Rolling Statistics | [Link](./02_rolling_statistics.ipynb)|
-| Lesson | Lesson, part 3: Autocorrelation | [Link](./03_autocorrelation.ipynb)|
-| Lesson | Lesson, part 4: Decomposition | [Link](./04_decomposition.ipynb)|
-| Lesson | Lesson, part 5: Practice Activity | [Link](./05_independent_practice.ipynb)|
-| Lesson | Lesson, part 6: Bonus Section on Modeling | [Link](./06_bonus_time_series_models.ipynb)|
+| Lesson | Lesson, Part 1: Time Series Intro | [Link](./01_time_series.ipynb)|
+| Lesson | Lesson, Part 2: Rolling Statistics | [Link](./02_rolling_statistics.ipynb)|
+| Lesson | Lesson, Part 3: Autocorrelation | [Link](./03_autocorrelation.ipynb)|
+| Lesson | Lesson, Part 4: Decomposition | [Link](./04_decomposition.ipynb)|
+| Lesson | Lesson, Part 5: Practice Activity | [Link](./05_independent_practice.ipynb)|
+| Lesson | Lesson, Part 6: Bonus Section on Modeling | [Link](./06_bonus_time_series_models.ipynb)|
 | Data Sets | Lesson, Part X | [Link](X)|
 | Data Sets | Lesson, Part X | [Link](X)|
 | Data Sets | Lesson, Part X | [Link](X)|
-| Solutions | Solution code, Part 1 | [Link](./solution-code/01_time_series_solutions.ipynb)|
-| Solutions | Solution code, Part 2 | [Link](./solution-code/02_rolling_statistics_solutions.ipynb)|
-| Solutions | Solution code, Part 3 | [Link](./solution-code/03_autocorrelation_solutions.ipynb)|
-| Solutions | Solution code, Part 4 | [Link](./solution-code/04_decomposition_solutions.ipynb)|
-| Solutions | Solution code, Part 5 | [Link](./solution-code/05_independent_practice_solutions.ipynb)|
+| Solutions | Solution Code, Part 1 | [Link](./solution-code/01_time_series_solutions.ipynb)|
+| Solutions | Solution Code, Part 2 | [Link](./solution-code/02_rolling_statistics_solutions.ipynb)|
+| Solutions | Solution Code, Part 3 | [Link](./solution-code/03_autocorrelation_solutions.ipynb)|
+| Solutions | Solution Code, Part 4 | [Link](./solution-code/04_decomposition_solutions.ipynb)|
+| Solutions | Solution Code, Part 5 | [Link](./solution-code/05_independent_practice_solutions.ipynb)|
 
 
-> **Data description**: Here are some descriptions of the datasets we're including in the `data` folder, including what they are, why we chose them, and where they are used.
+> **Data description**: Here are some descriptions of the data sets we're including in the `data` folder, including what they are, why we chose them, and where they are used.
 
 ---
 
@@ -32,11 +32,11 @@
 
 After this lessons, students will be able to:
 
-1. Explain how time series data is distinct and how to account for it
-2. Create rolling means and plot time series data
-3. Perform autocorrelation on sample time series data
-4. Decompose time series data into trend and residual components
-5. Bonus: Explain the benefits and drawbacks of ARIMA as compared to other methods
+- Explain how time series data are distinct and how to account for that.
+- Create rolling means and plot time series data.
+- Perform autocorrelation on sample time series data.
+- Decompose time series data into trend and residual components.
+- Bonus: Explain the benefits and drawbacks of ARIMA as compared to other methods.
 
 ---
 
@@ -44,9 +44,9 @@ After this lessons, students will be able to:
 
 Before this lesson(s), students should already be able to:
 
-1. Manipulate data with `pandas`
-2. Create basic data visualizations with Matplotlib and seaborn
-3. Define and demonstrate techniques for correlating data points
+- Manipulate data with Pandas.
+- Create basic data visualizations with Matplotlib and Seaborn.
+- Define and demonstrate techniques for correlating data points.
 
 ---
 
@@ -56,42 +56,42 @@ Before this lesson(s), students should already be able to:
 
 I. **Foundations** (TODO min total)
 - Part 1: Time Series Data (TODO min)
-    - What is time series data?
-    - Examples of time series data and domains that find it useful
-    - Trends and seasonality
-    - Preprocessing time series data with `pandas`
-    - Processing date information as `DateTime` objects
-    - Filtering by date with `pandas`
-    - Differencing/lagging
+    - What is Time Series Data?
+    - Examples of Time Series Data and Domains That Find it Useful
+    - Trends and Seasonality
+    - Preprocessing Time Series Data With Pandas
+    - Processing Date Information as `datetime` Objects
+    - Filtering by Date With Pandas
+    - Differencing/Lagging
 - Practice (TODO min)
 - Part 2: Rolling Means and Plotting Time Series Data (TODO min)
-    - What is a trend?
-    - Visualizing trends
-    - Computing aggregates with `pandas` `.resample` function
-    - Computing rolling averages with `pandas` 
-    - Other `pandas` window functions (rolling sum, rolling max, diff)
-    - Exponentially weighted windows
-    - Plotting time series data
+    - What is a Trend?
+    - Visualizing Trends
+    - Computing Aggregates With Pandas' `.resample()` Function
+    - Computing Rolling Averages With Pandas
+    - Other Pandas Window Functions (Rolling Sum, Rolling Max, Diff)
+    - Exponentially Weighted Windows
+    - Plotting Time Series Data
 - Practice (TODO min)
 - Part 3: Autocorrelation on Time Series Data (TODO min)
-    - Define autocorrelation 
-    - Examples of autocorrelation
-    - Computing autocorrelation
-    - Using the `pandas` `autocorr` function 
-    - Calculating and plotting ACF and PACF using `statsmodels`
+    - Define Autocorrelation 
+    - Examples of Autocorrelation
+    - Computing Autocorrelation
+    - Using the Pandas `autocorr()` Function 
+    - Calculating and Plotting ACF and PACF Using StatsModels
 - Part 4: Decomposing Time Series (TODO min)
-    - Decomposing time series into trend, seasonality, cyclical, and residual components
-    - Using the `.seasonal_decompose` function
-    - Plotting the seasonal, trend, and residual components of a time series
+    - Decomposing Time Series Into Trend, Seasonality, Cyclical, and Residual Components
+    - Using the `.seasonal_decompose()` Function
+    - Plotting the Seasonal, Trend, and Residual Components of a Time Series
 - Closing and Recap (TODO min)
    
     
 II. **Bonus** (TODO min)
-- Time Series Forecasting Models(15 min)
-    - What are time series models?
-    - Properties of time series models
-    - Assumption of stationarity
-    - Compare/contrast time series forecasting models
+- Time Series Forecasting Models (15 min)
+    - What are Time Series Models?
+    - Properties of Time Series Models
+    - Assumption of Stationarity
+    - Compare/Contrast Time Series Forecasting Models
 - Closing and Recap (TODO min)
 
 ---
@@ -100,6 +100,6 @@ II. **Bonus** (TODO min)
 ## Additional Resources
 
 If you are interested in more resources, check out the following:
-- In Pandas' "datetime" library, [search for more information on`.dt` here](http://pandas.pydata.org/pandas-docs/stable/api.html).
+- In Pandas' `datetime` library, [search for more information on `.dt` here](http://pandas.pydata.org/pandas-docs/stable/api.html).
 - For additional review of these concepts, see [some inspiration from the Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/03.11-working-with-time-series.html).
 - There are lots of additional tutorials on ARIMA models out there; [here is a good one](http://www.statsref.com/HTML/index.html?arima.html).
